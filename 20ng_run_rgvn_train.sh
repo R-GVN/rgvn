@@ -1,0 +1,2 @@
+python main_data_valuation_sgcn.py --data_name 20ng --train_no 1314 --valid_no 7532 --hidden_dim 300 --comb_dim 10 --iterations 400 --layer_number 5 --batch_size 2000 --inner_iterations 5 --batch_size_predictor 256 --learning_rate 0.01 --n_exp 5 --checkpoint_file_name ./models/sgcn_as_feature/model.ckpt --normalization none --n_label_class 20 --vocab_size 800 --eval_model None --feature_method sgcn --is_merge_col 1 --noise_rate 0.2 --gpu_count 4
+#python evaluate_rgvn_textcnn.py --feature_method 20ng_sgcn_hidden_dim_300 --noise_rate 0.1 --gpu_count 0
